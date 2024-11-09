@@ -1,21 +1,24 @@
-##Redactor-soundcloud-plugin
+## Redactor-soundcloud-plugin
+
 Embed your soundcloud track into redactor
 
-###How to install
+### How to install
+
 using __bower__:
 
 ```
-	bower install redactor-soundcloud-plugin	
+bower install redactor-soundcloud-plugin	
 ```
 
 using __npm__:
 
 ```
-	npm install redactor-soundcloud-plugin
+npm install redactor-soundcloud-plugin
 ```
 
-###Usage
-#####import redactor-soundcloud.js
+### Usage
+
+##### import redactor-soundcloud.js
 
 if you installed with __bower__:
 
@@ -29,16 +32,15 @@ if you installed with  __npm__:
 <script src="node_modules/redactor-soundcloud-plugin/redactor-soundcloud.js"></script>
 ```
 
-#####insert plugin in redactor config, example:
+##### insert plugin in redactor config, example:
 
 ```
 $('#redactor').redactor({
 	plugins: ['soundcloud']
 });
-
 ```
 
-#####READY! see example:
+##### READY! see example:
 
 ![gif](example.gif)
 
